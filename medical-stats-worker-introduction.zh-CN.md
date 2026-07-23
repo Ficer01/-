@@ -1,4 +1,4 @@
-# 医疗统计 Worker 新手说明
+# 医疗统计 Worker 说明
 
 ## 1. Worker 到底是什么
 
