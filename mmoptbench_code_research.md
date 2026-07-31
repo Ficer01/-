@@ -1,6 +1,5 @@
-# MM-OptBench 代码仓库研究记录
+# MM-OptBench 代码仓库
 
-研究日期：2026-07-31  
 代码链接：https://anonymous.4open.science/r/MMOptBench-D7C1  
 数据集链接：https://www.kaggle.com/datasets/d927edfbd3d853309e4ae6ebc4d06c8e2170a8c4403f4fc0560ccb04ea4ee3c8  
 Croissant validator：https://huggingface.co/spaces/JoaquinVanschoren/croissant-checker
