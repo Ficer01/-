@@ -4,7 +4,7 @@
 
 ## 1. 目标与结论
 
-我们的目标不是让模型只会“看图后写一段答案”，而是让多模态模型稳定完成：
+理想情况是让多模态模型稳定完成：
 
 > 视觉信息理解 → 优化语义恢复 → 数学模型构建 → 可执行代码生成 → 求解器验证
 
@@ -433,19 +433,3 @@ SFT 不必机械拆成两个训练阶段，建议采用逐步加难的多任务�
 这条路线既继承了现有 mmopt 的数据生成和 solver-grounded 优势，也能形成清晰的论文贡献：**面向多模态优化建模的可验证数据构造、结构化建模监督与求解器强化学习框架。**
 
 ---
-
-## 参考论文
-
-1. G-LLaVA: Solving Geometric Problem with Multi-Modal Large Language Model.
-2. Math-LLaVA: Bootstrapping Mathematical Reasoning for Multimodal Large Language Models.
-3. MAVIS: Mathematical Visual Instruction Tuning.
-4. MathCoder-VL: Bridging Vision and Code for Enhanced Multimodal Mathematical Reasoning.
-5. Math-PUMA: Progressive Upward Multimodal Alignment to Enhance Mathematical Reasoning.
-6. AtomThink: Multimodal Slow Thinking with Atomic Step Reasoning.
-7. MultiMath: Bridging Visual and Mathematical Reasoning for Large Language Models.
-8. MM-Eureka: Exploring the Frontiers of Multimodal Reasoning with Rule-Based Reinforcement Learning.
-9. MM-PRM: Enhancing Multimodal Mathematical Reasoning with Scalable Step-Level Supervision.
-10. VisualPRM: An Effective Process Reward Model for Multimodal Reasoning.
-11. MAmmoTH-VL: Eliciting Multimodal Reasoning with Instruction Tuning at Scale.
-12. Masked Thought: Simply Masking Partial Reasoning Steps Can Improve Mathematical Reasoning Learning of Language Models.
-13. MV-MATH: Evaluating Multimodal Math Reasoning in Multi-Visual Contexts.
